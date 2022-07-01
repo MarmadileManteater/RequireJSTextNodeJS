@@ -17,5 +17,9 @@
     "license": "MIT",
     "volo": {
         "url": "https://raw.github.com/requirejs/text/{version}/text.js"
+    },
+    "dependencies": {
+        "amdefine": "^1.0.1",
+        "requirejs": "^2.3.6"
     }
 }

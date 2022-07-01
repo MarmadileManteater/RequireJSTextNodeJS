@@ -7,6 +7,18 @@
   define, window, process, Packages,
   java, location, Components, FileUtils */
 
+// #region RequireJS
+var define
+if (typeof define !== 'function') {
+    define = require('amdefine')(module, require);
+}
+var requirejs
+if (typeof requirejs !== 'function') {
+    var requirejs = require('requirejs');
+    require = requirejs;
+}
+// #endregion
+
 define(['module'], function (module) {
     'use strict';
 
